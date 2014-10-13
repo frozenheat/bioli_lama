@@ -1,0 +1,42 @@
+body{
+margin-left:auto;
+margin-right:auto;
+background-image:url(../Image/BackgroundAdmin.jpg);
+background-repeat:no-repeat;
+}
+
+#wrapper
+{
+width:1366;
+height:768;
+
+}
+
+/*paragraf*/
+/*paragraf end*/
+
+
+
+/*admin*/
+
+#wrapper_header
+{
+
+}
+
+/*admin end*/
+
+
+
+/*menu*/
+/*menu end*/
+
+
+
+/*body*/
+/*body end*/
+
+
+
+/*footer*/
+/*footer end*/

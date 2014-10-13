@@ -1,0 +1,360 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	margin:0;
+	/*background-image:url(../Image/Background.jpg);*/	
+}
+
+/* paragaf */
+/*p.sherif{font-family:"Times New Roman", Times, serif};*/
+p.footer{
+
+font-size:19px;
+margin:auto;
+width:70%;
+
+}
+
+
+p.logo_top{
+font-size:20px;
+color:#cf5d5d;
+margin:auto;
+padding-top:5px;
+width:50%;
+}
+
+/*paragaf end*/
+
+
+/*text setting*/
+
+.kotaktext
+{
+/*color:#FFF100;*/
+}
+
+
+
+/*text setting end */
+
+
+
+
+/* header */
+
+#wrapper_header_top{
+height:28px;
+background-color:#0c1c36;
+}
+
+#logo_top{
+position: relative;
+left: 70px;
+float: left;
+height: 28px;
+width: 90px;
+background-color:#193565;
+}
+
+#wrapper_header{
+	height:103px;
+	background-color:#193565;
+	box-shadow:0 3px 6px #8C9AB3;
+	/*background-image:url(../Image/HeaderBack.png);*/
+	
+}
+
+#header{
+/*image pasang disini*/
+background-image:url(../Image/Header_bioli.png);
+margin:auto;
+width:1080px;
+height:103px;
+
+}
+
+
+#header_loading
+{
+margin:auto;
+width:800px;
+height:100px;
+}
+
+/*header end */
+
+#center {
+	width:950px;
+	padding:0;
+	margin:auto 0;
+}
+
+
+#wrapperbody{
+width:800px;
+height:auto;
+margin:auto;
+position:relative;
+padding-top:50px;}
+
+#body{
+	
+	min-height:395px;
+	height:auto;
+	
+	position:relative;	
+	
+}
+
+
+
+#body_contain{
+	margin:auto;
+	height:300px;
+	width:400px;
+}
+
+.forminput
+{
+	width:331px;
+	margin:auto;
+}
+
+#table_body
+{
+	margin:auto;
+	width:600px;
+	padding-top:80px;
+}
+
+
+/*body end */
+
+/* login */
+
+#body_login{
+margin:auto;
+min-height:300px;
+height:auto;
+width:806px;
+border-radius:0 10px 0 10px;
+}
+
+#left_login{
+float: left;
+border-right: 1px #87b1d3 solid;
+width: 535px;
+height: 300px;
+border-top-left-radius: 10px;
+border-bottom-left-radius: 10px;
+}
+
+#right_login{
+
+background-position: right top;
+background-repeat: no-repeat;
+float: right;
+width: 250px;
+height: 100%;
+padding-top: 55px;
+}
+
+#login-inner	{
+	height:66px;
+	line-height:12px;
+	width: 320px;
+	margin: auto;
+	}
+	
+#login-inner label	{
+	color: #161616;
+	cursor: pointer;
+	font-family: Tahoma;
+	font-weight: bold;
+	line-height: 12px;
+	padding-left: 10px;	
+	}
+	
+#logintop{
+height: 70px;
+background:url(../Image/loginlogo.png);
+background-repeat:no-repeat;
+}
+
+#login-inner th	{
+	padding: 0 0 6px 0;
+	text-align: left;
+	width: 95px;
+	}
+	
+#login-inner td	{
+	padding: 0 0 6px 0;
+	}
+	
+#slideshow{
+width:535px;
+height:300px;
+position:absolute;
+}
+
+	
+.login-inp	{
+	background: url(../Image/inp_login.gif) no-repeat;
+	border: none;
+	color: #fff;
+	font-size: 16px;
+	height: 28px;
+	
+	width: 169px;
+	}
+	
+.submit-login	{
+	background: url(../image/masuk.jpg) no-repeat;
+	border: none;
+	cursor: pointer;
+	display: block;
+	height: 29px;
+	text-indent: -3000px;
+	width: 73px;
+	border-radius: 5 5 5 5;
+	}
+	
+.tombolSimpan	{
+	background: url(../image/simpan.jpg) no-repeat;
+	border: none;
+	cursor: pointer;
+	display: block;
+	height: 29px;
+	text-indent: -3000px;
+	width: 73px;
+	border-radius: 5 5 5 5;
+	}
+	
+.tombolUbah	{
+	background: url(../image/ubah.jpg) no-repeat;
+	border: none;
+	cursor: pointer;
+	display: block;
+	height: 29px;
+	text-indent: -3000px;
+	width: 73px;
+	border-radius: 5 5 5 5;
+	}
+
+	
+/*slideshow*/	
+#slider {
+    width:535px;height:300px;/* Make it the same size as your images */
+	background:#fff url(loading.gif) no-repeat 50% 50%;
+	position:relative;
+	margin:0 auto;/*make the image slider center-aligned */
+    box-shadow: 0px 1px 5px #999999;
+	
+}
+
+#slider img {
+	position:absolute;
+	border:none;
+	display:none;
+	
+}
+
+/* ------ built-in navigation bullets wrapper ------*/
+div.navBulletsWrapper  {
+	top:320px; left:280px; /* Its position is relative to the #slider */
+	width:150px;
+	background:none;
+	padding-left:20px;
+	position:relative;
+	z-index:5;
+	cursor:pointer;
+}
+
+/* each bullet */
+div.navBulletsWrapper div 
+{
+    width:11px; height:11px;
+    background:transparent url(bullet.png) no-repeat 0 0;
+    float:left;overflow:hidden;vertical-align:middle;cursor:pointer;
+    margin-right:11px;/* distance between each bullet*/
+    _position:relative;/*IE6 hack*/
+}
+
+div.navBulletsWrapper div.active {background-position:0 -11px;}
+
+
+/*slideshow end*/
+
+/*login end*/
+
+/*footer */
+
+
+#footer{
+/* image pasang disini */
+	width:100%;
+	height:50px;
+	bottom:0;
+	left:0;
+	padding-top:50px;
+}
+
+
+
+#footer-contain{
+	margin-left:auto;
+	margin-right:auto;
+	width:507px;
+	height:50px;
+
+}
+
+/*footer end*/
+
+
+/* form dalam */
+
+.text	{
+	background: url(../Image/inp_login.gif) no-repeat;
+	border: none;
+	color: #fff;
+	font-size: 16px;
+	height: 28px;
+	
+	width: 169px;
+	}
+	
+/* form dalam end */
+
+
+
+/* scrolling */
+
+
+.scroll {
+    border: 1px solid #777777;
+	height:auto;
+    max-height: 200px;
+    overflow: scroll;
+    width: 709px;
+	margin:auto;
+
+}
+
+/* end scrolling */
+
+
+/* setting table */
+
+table.Pegawai
+{
+width:692px;
+}
+
+table.Pegawai tr>td
+{
+max-width:331px;
+overflow:hidden;
+}
